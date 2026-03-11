@@ -22,6 +22,7 @@ Matplotlib & Seaborn (Data Visualization)
 Jupyter Notebook (Development Environment)
 
 **Data Wrangling & Cleaning Process**
+
 To prepare the raw datasets for a cohesive analysis, several data wrangling steps were executed:
 
 Excluded incomplete records by dropping rows with missing Postal Code values to ensure location-based merging remained accurate.
@@ -37,9 +38,9 @@ Aggregated the total number of fast chargers per postal code and performed an in
 # Key Visualizations & Insight #
 The project answers the core research question: Do zip codes with high Electric Vehicle (EV) registrations also have a higher number of DC fast charging stations available?
 
-Scatter Plot Analysis: Visualizes the direct correlation between the total number of registered EVs and the total number of DC fast chargers across different zip codes.
+**Scatter Plot Analysis**: Visualizes the direct correlation between the total number of registered EVs and the total number of DC fast chargers across different zip codes.
 
-Top 10 Zip Code Bar Chart: Isolates the top 10 zip codes with the highest EV adoption and displays the exact number of fast chargers available in those specific areas, highlighting infrastructure gaps.
+**Top 10 Zip Code Bar Chart**: Isolates the top 10 zip codes with the highest EV adoption and displays the exact number of fast chargers available in those specific areas, highlighting infrastructure gaps.
 
 # Future Work & Reflections #
 If given more time to expand this project, future iterations would include exploring the nested JSON structures from the NREL API to extract additional variables such as pricing structures and connector types. Furthermore, deeper text standardization on the vehicle "Make" and "Model" fields would allow for an expanded analysis to determine which EV manufacturers are most popular in areas with high fast-charger availability.
