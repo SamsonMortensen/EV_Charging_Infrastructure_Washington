@@ -1,4 +1,4 @@
-## EV_Charging_Infrastructure_Washington ##
+## EV Charging Infrastructure in Washington State ##
 
 ## Project Overview ##
 The goal of this project is to analyze the relationship between Electric Vehicle (EV) adoption and the availability of public charging infrastructure in Washington state. By wrangling and merging disparate datasets, this analysis identifies whether the deployment of DC fast chargers is keeping pace with the regions showing the highest concentration of registered EVs.
