@@ -21,10 +21,10 @@ Matplotlib & Seaborn (Data Visualization)
 
 Jupyter Notebook (Development Environment)
 
-Data Wrangling & Cleaning Process
+**Data Wrangling & Cleaning Process**
 To prepare the raw datasets for a cohesive analysis, several data wrangling steps were executed:
 
-Handling Missing Values: Excluded incomplete records by dropping rows with missing Postal Code values to ensure location-based merging remained accurate.
+Excluded incomplete records by dropping rows with missing Postal Code values to ensure location-based merging remained accurate.
 
 Resolved tidiness issues by converting all EV registration column names to snake_case (lowercasing, replacing spaces with underscores, and removing parentheses) to align with Python programmatic best practices.
 
